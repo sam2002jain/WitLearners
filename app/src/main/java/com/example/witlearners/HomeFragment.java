@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.witlearners.chaptertopics.topicactivity;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link HomeFragment#newInstance} factory method to
@@ -85,7 +87,7 @@ public class HomeFragment extends Fragment {
 
 
         heading1.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity.class);
             startActivity(intent);
 
         });

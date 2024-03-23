@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".topicactivity">
+    tools:context=".chaptertopics.topicactivity">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,5 +35,30 @@
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/homebg"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <com.example.witlearners.chaptertopics.expandableheigthgridview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/topic_grid"
+                android:horizontalSpacing="7dp"
+                android:verticalSpacing="10dp"
+                android:isScrollContainer="false"
+                android:columnWidth="100dp"
+                android:stretchMode="columnWidth"
+                android:numColumns="2"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
