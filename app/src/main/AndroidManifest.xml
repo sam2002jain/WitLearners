@@ -12,13 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WITLearners"
         tools:targetApi="31">
-
+        <activity
+            android:name=".topicactivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
-            <activity
-                android:name=".splashscreen"
-                android:exported="true" >
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

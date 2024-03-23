@@ -1,7 +1,9 @@
 package com.example.witlearners;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -27,6 +29,19 @@ public class HomeFragment extends Fragment {
     public HomeFragment() {
         // Required empty public constructor
     }
+
+    CardView heading1;
+    CardView heading2;
+
+    CardView heading3;
+
+    CardView heading4;
+    CardView heading5;
+    CardView heading6;
+
+
+
+
 
     /**
      * Use this factory method to create a new instance of
@@ -59,6 +74,46 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        heading1 = view.findViewById(R.id.heading1);
+        heading2 = view.findViewById(R.id.heading2);
+        heading3 = view.findViewById(R.id.heading3);
+        heading4 = view.findViewById(R.id.heading4);
+        heading5 = view.findViewById(R.id.heading5);
+        heading6 = view.findViewById(R.id.heading6);
+
+
+
+        heading1.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        heading2.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        heading3.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        heading4.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        heading5.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        heading6.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getContext(),topicactivity.class);
+            startActivity(intent);
+
+        });
+        return view;
     }
 }
