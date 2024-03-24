@@ -11,6 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.witlearners.chaptertopics.topicactivity;
+import com.example.witlearners.chaptertopics.topicactivity2;
+import com.example.witlearners.chaptertopics.topicactivity3;
+import com.example.witlearners.chaptertopics.topicactivity4;
+import com.example.witlearners.chaptertopics.topicactivity5;
+import com.example.witlearners.chaptertopics.topicactivity6;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -92,27 +97,27 @@ public class HomeFragment extends Fragment {
 
         });
         heading2.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity2.class);
             startActivity(intent);
 
         });
         heading3.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity3.class);
             startActivity(intent);
 
         });
         heading4.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity4.class);
             startActivity(intent);
 
         });
         heading5.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity5.class);
             startActivity(intent);
 
         });
         heading6.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getContext(),topicactivity.class);
+            Intent intent = new Intent(getContext(), topicactivity6.class);
             startActivity(intent);
 
         });
