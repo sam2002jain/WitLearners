@@ -57,7 +57,12 @@
                 android:columnWidth="100dp"
                 android:stretchMode="columnWidth"
                 android:numColumns="2"/>
+
+
+
+
         </RelativeLayout>
+
     </androidx.core.widget.NestedScrollView>
 
 

@@ -20,7 +20,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:src="@drawable/pl"
+                android:src="@drawable/cn"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
                 android:contentDescription="Heading 2"/>
@@ -29,7 +29,7 @@
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/Theme.AppCompat.Light"
-                app:title="Programming Notes"
+                app:title="Computer Network Notes"
                 app:titleTextColor="@color/white"
                 android:id="@+id/toolbarPL"/>
 

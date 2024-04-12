@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4823025711",
+    "project_id": "witlearners",
+    "storage_bucket": "witlearners.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4823025711:android:22a0320f9af91bc82f5eda",
+        "android_client_info": {
+          "package_name": "com.example.witlearners"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt2fHn6surj03qR5jlEJoAl5olsZiCabQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
